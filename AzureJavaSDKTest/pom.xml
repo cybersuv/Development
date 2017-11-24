@@ -62,6 +62,14 @@
           <artifactId>applicationinsights-logging-logback</artifactId>
           <version>1.0.10</version>
        </dependency>
+       
+       <!-- Azure Storage -->
+		<dependency>
+		    <groupId>com.microsoft.azure</groupId>
+		    <artifactId>azure-storage</artifactId>
+		    <version>6.1.0</version>
+		</dependency>
+       
 
 		<dependency>
 			<groupId>junit</groupId>

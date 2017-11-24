@@ -8,13 +8,12 @@
 	</appender>
 	<appender name="aiAppender"
 		class="com.microsoft.applicationinsights.logback.ApplicationInsightsAppender">
-		
+		<instrumentationKey>0830fac8-f2c9-4540-951f-9cc293829f35</instrumentationKey>
 	</appender>
-	<root level="INFO">
-		<appender-ref ref="STDOUT" />
+	<root level="info">
 		<appender-ref ref="aiAppender" />
 	</root>
-	<logger name="defaultLogger" level="DEBUG">
+	<logger name="defaultLogger" level="ALL">
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="aiAppender" />
 	</logger>
